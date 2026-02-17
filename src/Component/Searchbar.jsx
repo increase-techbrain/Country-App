@@ -11,7 +11,7 @@ const Searchbar = ({searchTerm, setSearchTerm}) => {
       type="text"
        value={searchTerm} 
        placeholder="Search for country............."
-       onClick={(e)=> setSearchTerm(e.target.value)}
+       onChange={(e)=> setSearchTerm(e.target.value)}
         className="w-full pl-10 pr-4 py-3 border border-gray-400 rounded focus:ring-2 focus:ring-indigo-500 shadow placeholder:text-gray-600" />
       
       </div>
